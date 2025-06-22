@@ -13,3 +13,9 @@ The package is available on PyPI [here](https://pypi.org/project/mdformat-yamlfm
 ```bash
 pip install mdformat-yamlfmt
 ```
+
+Add option to not package yamlfmt ?
+
+```bash
+pip install mdformat-yamlfmt[light]
+```

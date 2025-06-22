@@ -26,6 +26,9 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["src/mdformat_yamlfmt"]
 
+[tool.hatch.build.targets.custom]
+path = "build/hatch_build.py"
+
 [tool.hatch.version]
 path = "src/mdformat_yamlfmt/__init__.py"
 
